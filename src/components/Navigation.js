@@ -1,13 +1,5 @@
-import './App.css';
-import Navigation from './component/Navigation';
+const Navigation = () => {
+    return <div>Navigation</div>;
+};
 
-function App() {
-    return (
-        <div className="App">
-            <Navigation />
-            ÄÚ¸àÅä ¼îÇÎ
-        </div>
-    );
-}
-
-export default App;
+export default Navigation;
